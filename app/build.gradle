@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 8
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "demo.playfile"
-        minSdkVersion 8
-        targetSdkVersion 28
+        minSdkVersion 16
+        targetSdkVersion 26
     }
 
     buildTypes {
